@@ -16,6 +16,17 @@ https://github.com/pcm-dpc/COVID-19
 
 ### Spain
 
+Data for Spain broken down by autonomous community:
+https://covid19.isciii.es/resources/serie_historica_acumulados.csv
+
+#### Aragon
+
+Totals:
+https://www.aragon.es/documents/20127/38742837/casos_coronavirus_aragon.csv
+
+By Province:
+https://www.aragon.es/documents/20127/38742837/casos_coronavirus_provincias.csv
+
 #### Catalonia
 
 COVID-19 tests and results by date, sex, and basic health area:
