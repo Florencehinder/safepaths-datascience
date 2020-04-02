@@ -3,7 +3,16 @@
 
 ## Growing List of Data Sources
 
+### Global
+
+JHU CSSE:
+https://github.com/CSSEGISandData/COVID-19
+
+
 ### Italy
+
+Department of Civil Protection:
+https://github.com/pcm-dpc/COVID-19
 
 ### Spain
 
