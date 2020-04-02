@@ -37,3 +37,11 @@ https://analisi.transparenciacatalunya.cat/api/views/xuwf-dxjd/rows.csv?accessTy
 
 The API docs, including instructions for registering app key: https://dev.socrata.com/foundry/analisi.transparenciacatalunya.cat/xuwf-dxjd
 
+### US
+
+NY Times Database (counties and states):
+https://github.com/nytimes/covid-19-data
+
+
+
+
