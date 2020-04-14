@@ -1,6 +1,3 @@
-# Directory for Data Science 
-
-
 ## Growing List of Data Sources
 
 ### Global
