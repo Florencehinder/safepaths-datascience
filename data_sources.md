@@ -5,6 +5,9 @@
 JHU CSSE:
 https://github.com/CSSEGISandData/COVID-19
 
+Lancet paper from [Xu & Kramer](https://doi.org/10.1016/S1473-3099(20)30119-5):
+https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data
+
 
 ### Italy
 
