@@ -30,6 +30,7 @@ def check_GPS_csv(url):
 def build_GPS_data_csv(url, filename='gps_data.csv'):
     with open(filename, "w", newline='') as result:
         writer = csv.DictWriter(result, ['latitude','longitude'])
+        writer.writeheader()
 
         response = http.request('GET', url)
         temp = list(csv.DictReader(response.data.decode('utf-8').splitlines()))
@@ -42,5 +43,5 @@ def build_GPS_data_csv(url, filename='gps_data.csv'):
                     if re.search('long', old_k, re.IGNORECASE):
                         filtered_d['longitude'] = filtered_d.pop(old_k)
                     else: filtered_d['latitude'] = filtered_d.pop(old_k)
-
+                
             writer.writerow(filtered_d)
