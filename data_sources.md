@@ -3,10 +3,10 @@
 ## Global
 
 JHU CSSE:
-https://github.com/CSSEGISandData/COVID-19
+https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
 
 Lancet paper from [Xu & Kramer](https://doi.org/10.1016/S1473-3099(20)30119-5):
-https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data
+https://raw.githubusercontent.com/beoutbreakprepared/nCoV2019/master/latest_data/latestdata.csv
 
 Our world in data: 
 https://github.com/owid/covid-19-data/tree/master/public/data
@@ -40,6 +40,9 @@ https://analisi.transparenciacatalunya.cat/api/views/xuwf-dxjd/rows.csv?accessTy
 The API docs, including instructions for registering app key: https://dev.socrata.com/foundry/analisi.transparenciacatalunya.cat/xuwf-dxjd
 
 ## US
+
+JHU CSSE:
+https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
 
 NY Times Database (counties and states):
 https://github.com/nytimes/covid-19-data
