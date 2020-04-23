@@ -6,10 +6,11 @@
 },
 "Nations":{
     "Italy":{
-        "Department of Civil Protection":{
-            "Provinces":"https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-province-latest.json",
-            "Regions":"https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-regioni-latest.json"
-    
+        "Regions":{
+            "Department of Civil Protection":"https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-regioni-latest.json",
+            "Provinces":{
+                "Department of Civil Protection":"https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-province-latest.json"
+            }
         }
     }, 
     "Spain":{
@@ -29,8 +30,21 @@
         "National":{
             "JHU CSSE":"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv",
             "[COVID Tracking data](https://covidtracking.com)":"https://raw.githubusercontent.com/COVID19Tracking/covid-tracking-data/master/data/states_current.csv",
-            "NY Times":"https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv"
-        }, 
+            "NY Times":"https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv",
+            "Abhishek doc":"https://docs.google.com/spreadsheets/d/1-UoSTtjxfLBL--z72DLBQbVvzHgJG8ph11modibDXBs/edit?usp=sharing", 
+            "States":{
+                "Tennessee":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1mwz8elbrOrxv4rNHKYXMvDzehQBdx12e-yuh130VhoY/edit?usp=sharing"},
+                "South Dakota":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1uefarl4zaagSauboPodIrj5HgSYjD1FAQzPtIlrjIrk/edit?usp=sharing"},
+                "Pennsylvania":{"Abhishek doc":" https://docs.google.com/spreadsheets/d/1iLD2QnqgB9lxVjznFmNr-vco1hItGUoa0G8CucfcJfM/edit?usp=sharing"},
+                "Oregon":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1ucG2uISCRRP3lx3bMe9gR89FPLYO7EeB_mjKk8QiKfI/edit?usp=sharing"},
+                "North Dakota":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1AgQ-k_HBWQF5HMGXDDcUzfaVane0MX_hBHS8GDwzVXU/edit?usp=sharing"},
+                "North Carolina":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1BFdlI8Yy4ynHh06E-4K3lcGwHrtX_pZF7nFW6H3Wqh8/edit?usp=sharing"},
+                "New Mexico":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1SFNgit2NrvqAaBui_hcnd5k63s3q1L99kLuljMJBTO4/edit?usp=sharing"},
+                "Montana":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1f-TG7Wmm1-lAnETg_8VU7m7YWyY8_mcN8wDWcq_Od_Y/edit?usp=sharing"},
+                "Missouri":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/11NlCkLQaWKrbARLB4mdHuj8g4j6Co8lrNCzARpxsV1Y/edit?usp=sharing"},
+                "Mississippi":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1JipM2-luV491zGNn-N2zDJt6xBT_rGwpJaaSCRWOR-g/edit?usp=sharing"},
+                "Michigan":{"Abhishek doc":"https://docs.google.com/spreadsheets/d/1fbrVcK5WGRsAJnDxzEa0G3pK44-i5V5a2MjnmJWh_i4/edit?usp=sharing"}
+            }, 
         "By Counties":{
             "NY Times":"https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
         }
